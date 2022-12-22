@@ -1,0 +1,441 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #f1f1f1;
+}
+
+:root {
+    --f-size-sm: 15px;
+    --f-size-md: 24px;
+    --f-size-lg: 30px;
+}
+
+#navbarSupportedContent{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-container{
+    padding: 8px 16px;
+    color: #F44336;
+}
+
+.logo-container:hover{
+    background-color: #F44336;
+    padding: 8px 16px;
+    color: #fff;
+}
+
+.search-icon{
+    color: #F44336;
+    padding: 8px 16px;
+}
+
+.search-icon:hover{
+    background-color: #F44336;
+    padding: 8px 16px;
+    color: #fff;
+}
+
+.hero-container{
+    position: relative;
+}
+
+.hero-container .hero-image img{
+    width: 100%;
+}
+
+.header-form-container{
+    width: 65%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+}
+
+.header-form-navbar-container{
+    background-color: #111;
+    color: #fff;
+    padding: 7px 0 7px 0;
+}
+
+.header-navbar-tag{
+    padding: 8px 16px;
+}
+
+.header-navbar-tag:hover{
+    padding: 8px 16px;
+    background-color: #c1c1c1;
+    color: #111;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* start css javascript switch case */
+
+.show
+{
+    display: inline-block !important;
+}
+
+.flight-input{
+    display: none;
+    width: 100%;
+}
+
+.hotel-input{
+    display: none;
+    width: 100%;
+}
+
+.rental-input{
+    display: none;
+    width: 100%;
+}
+
+.highlightTag{
+    background-color: #F44336;
+}
+/* end css javascript switch case */
+
+.flight-form{
+    display: flex;
+    gap: 1rem;
+}
+
+.depart-from{
+    width: 50%;
+}
+
+.arriving-at{
+    width: 50%;
+}
+
+.form-item{
+    padding: 8px 0px;
+}
+
+.form-item input{
+    width: 100%;
+    text-indent: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.form-item p{
+    margin: 0;
+}
+
+.form-title{
+    padding: 8px 0px;
+    margin: 0;
+    font-family: inherit;
+    font-size: 24px;
+}
+
+.submit-button{
+    padding: 8px 0px;
+}
+
+.header-form-input-container{
+    padding: 15px;
+}
+
+.hotel-tag-content p{
+    margin-top: 1rem;
+}
+
+.rental-tag-content p{
+    margin: 0;
+}
+
+.highlight-rental-text{
+    color: #fff;
+    background-color: #ff5722;
+    padding: 0 8px;
+}
+
+.pick-up input{
+    width: 100%;
+}
+
+.session-container{
+    max-width: 1100px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+.session1-container{
+   width: 100%; 
+   gap: 10px;
+}
+
+.session1-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.session1-item-bottom{
+    padding-bottom: 15px;
+}
+
+.session1-item-top{
+    padding-top: 15px;
+}
+
+.frame{
+    position: relative;
+}
+
+.display-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 15px;
+    padding: 8px 16px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.title-container{
+    margin-top: 26px;
+}
+
+.title-content h3{
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.title-content h6{
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.session2-container{
+    margin: 16px 0px;
+}
+
+.card-nature-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-nature-container h3{
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.card-nature-container p{
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.session2-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content{
+    background-color: #fff;
+}
+
+.card-text{
+    padding: 0 16px;
+}
+
+.card-text-opacity{
+    opacity: 0.6;
+}
+
+.card-button{
+    margin-bottom: 16px;
+    padding: 8px 16px;
+}
+
+.session3-content{
+    background-color: #000;
+    width: 100%;
+    padding: 16px;
+}
+
+.session3-content p, h2{
+    color: #fff;
+    font-weight: 400;
+}
+
+.session3-content h2{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.session3-card-text{
+    margin: 10px 0;
+}
+
+.session3-card-button{
+    background-color: #f44336;
+    padding: 8px 16px;
+    color: white;
+}
+
+.session3-card-button:hover{
+    background-color: #c1c1c1;
+    padding: 8px 16px;
+    color: #000;
+}
+
+.s4-icon-padding{
+    width: 30px;
+    padding-right: 10px;
+}
+
+.bio{
+    display: flex;
+    flex-direction: column;
+}
+
+.s4-form{
+    margin: 10px 0;
+}
+
+.s4-button{
+    color: #fff;
+    background-color: #000;
+    padding: 12px 24px;
+    border: none;
+}
+
+.s4-button:hover{
+    background-color: #c1c1c1;
+    color: #111;
+}
+
+.footer-container{
+    padding-bottom: 16px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+}
+
+.footer-text{
+    margin: 15px 0;
+}
+
+.footer-text h5{
+    margin: 0;
+    font-weight: 400;
+}
+
+.footer-icon{
+    padding: 20px 0;
+}
+
+.footer-comp{
+    margin: 15px 0;
+}
+
+.footer-comp p{
+    margin: 0;
+}
+
+.footer-comp p a{
+    color: #000;
+    text-decoration: underline;
+}
+
+.s4-form .form-group input{
+    padding: 16px 8px!important;
+    height: auto;
+}
+
+@media screen and (max-width: 767px){
+    .header{
+        display: none;
+    }
+
+    .session1-container .row{
+        display: flex;
+        flex-direction: column;
+        margin: 0 10px;
+    }
+
+    .session1-container .row .first-half img{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 15px 0px;
+        padding: 25px;
+    }
+
+    .session1-container .row .first-half .display-text{
+        bottom: 0;
+        left: 0;
+        margin: 15px;
+        padding: 20px 41px ;
+    }
+
+    .session2-container{
+        display: flex;
+        flex-direction: column;
+        margin: 0 15px;
+    }
+
+    .session2-content .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .session3-container{
+        margin: 15px;
+    }
+
+    .session4-container{
+        margin: 15px;
+    }
+
+    .session1-container .title-container{
+        margin: 15px;
+    }
+
+    .second-half .row .frame{
+        margin-bottom: 30px;
+    }
+
+    .session1-item-top{
+        padding-top: 0;
+    }
+
+    .session1-item-bottom{
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .session-container{
+        margin: 0 15px;
+    }
+}
